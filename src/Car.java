@@ -10,39 +10,41 @@ public class Car {
     public String toString() {
         return brand + " " + model + ", " + engineVolume + "L\nЦвет: " + color + "\nГод выпуска: " + year + "\nСтрана приозводства: " + country + "\n";
     }
-    public Car (String brand, String model, double engineVolume, String color, int year, String country){
+
+    public Car(String brand, String model, double engineVolume, String color, int year, String country) {
         if (brand.equals(null) || brand.equals("")) {
             this.brand = "default";
-        }else{
+        } else {
             this.brand = brand;
         }
-        if (model.equals(null) || model.equals("")){
+        if (model.equals(null) || model.equals("")) {
             this.model = "default";
-        }else{
+        } else {
             this.model = model;
         }
-        if (engineVolume <= 0){
+        if (engineVolume <= 0) {
             this.engineVolume = 1.5;
-        }else{
+        } else {
             this.engineVolume = engineVolume;
         }
-        if (color.equals(null) || color.equals("")){
+        if (color.equals(null) || color.equals("")) {
             this.color = "White";
-        }else{
+        } else {
             this.color = color;
         }
-        if (year <= 0){
+        if (year <= 0) {
             this.year = 2000;
-        }else{
+        } else {
             this.year = year;
         }
-        if (country.equals(null) || country.equals("")){
+        if (country.equals(null) || country.equals("")) {
             this.country = "default";
-        }else{
+        } else {
             this.country = country;
         }
     }
-    public  Car (){
+
+    public Car() {
         this.brand = "default";
         this.model = "default";
         this.engineVolume = 1.5;
