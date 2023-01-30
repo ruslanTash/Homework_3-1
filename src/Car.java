@@ -12,12 +12,12 @@ public class Car {
     }
 
     public Car(String brand, String model, double engineVolume, String color, int year, String country) {
-        if (brand.equals(null) || brand.equals("")) {
+        if (brand==null || brand.isEmpty()) {
             this.brand = "default";
         } else {
             this.brand = brand;
         }
-        if (model.equals(null) || model.equals("")) {
+        if (model==null || model.isEmpty()) {
             this.model = "default";
         } else {
             this.model = model;
@@ -27,7 +27,7 @@ public class Car {
         } else {
             this.engineVolume = engineVolume;
         }
-        if (color.equals(null) || color.equals("")) {
+        if (color==null || color.isEmpty()) {
             this.color = "White";
         } else {
             this.color = color;
@@ -37,7 +37,7 @@ public class Car {
         } else {
             this.year = year;
         }
-        if (country.equals(null) || country.equals("")) {
+        if (country==null || country.isEmpty()) {
             this.country = "default";
         } else {
             this.country = country;

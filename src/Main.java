@@ -9,7 +9,7 @@ public class Main {
         myCar1.country = "Russia";
 
 //        Car myCar1 = new Car("Lada", "Granta", 1.7, "Yellow", 2015, "Russia" );
-        Car myCar2 = new Car("Audi", "A8 50 L TDI quattro", 3.0, "Black", 2020, "Germany");
+        Car myCar2 = new Car("Audi", "A8 50 L TDI quattro", 3.0, "Black", 2020, null);
         Car myCar3 = new Car("BMW", "Z8", 3.0, "Black", 2021, "Germany");
         Car myCar4 = new Car("KIA", "Sportage IV", 2.4, "Red", 2018, "South Korea");
         Car myCar5 = new Car("Hyundai", "Avante", 1.6, "Orange", 2016, "South Korea");
